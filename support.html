@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneCheck iOS测试应用支持</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            border-bottom: 2px solid #59C7FA;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #121214;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #1C1C21;
+            margin-top: 30px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+            border-left: 3px solid #59C7FA;
+            padding-left: 15px;
+        }
+        .question {
+            font-weight: 600;
+            color: #1C1C21;
+            margin-bottom: 8px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #949499;
+            font-size: 14px;
+        }
+        a {
+            color: #59C7FA;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .language-selector {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .language-selector a {
+            color: #59C7FA;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+        .language-selector a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <a href="support.html" style="font-weight: bold;">中文</a>
+        <a href="support-en.html">English</a>
+    </div>
+    
+    <header>
+        <h1>PhoneCheck iOS测试应用支持</h1>
+        <p>获取帮助、报告问题或提供反馈</p>
+    </header>
+
+    <div class="contact-info">
+        <h2>联系支持</h2>
+        <p><strong>技术支持邮箱：</strong> <a href="mailto:support@jemjem.com">support@jemjem.com</a></p>
+        <p><strong>问题反馈：</strong> <a href="mailto:feedback@jemjem.com">feedback@jemjem.com</a></p>
+        <p><strong>隐私相关：</strong> <a href="mailto:privacy@jemjem.com">privacy@jemjem.com</a></p>
+        <p>我们会在24-48小时内回复您的邮件。</p>
+    </div>
+
+    <div>
+        <h2>常见问题 (FAQ)</h2>
+        
+        <div class="faq-item">
+            <div class="question">1. PhoneCheck iOS应用需要什么条件才能运行？</div>
+            <p>• iOS 15.6或更高版本<br>
+               • iPhone设备（不支持iPad）<br>
+               • 与PhoneCheck桌面应用在同一Wi-Fi网络<br>
+               • 各种硬件测试所需的权限（摄像头、麦克风等）</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">2. 如何连接到PhoneCheck桌面应用？</div>
+            <p>1. 确保手机和电脑在同一Wi-Fi网络<br>
+               2. 在iOS应用中输入电脑的IP地址（桌面应用会显示）<br>
+               3. 点击"连接"按钮<br>
+               4. 连接成功后，桌面应用可以发送测试命令</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">3. 测试数据存储在哪里？</div>
+            <p>所有诊断数据在设备本地临时存储，测试完成后可被删除。数据可选择发送到连接的桌面应用进行进一步分析。我们不在服务器上存储任何诊断数据。</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">4. 应用需要哪些权限？为什么？</div>
+            <p>应用需要以下权限进行硬件测试：<br>
+               • <strong>摄像头</strong>：测试前后摄像头功能<br>
+               • <strong>麦克风</strong>：测试音频输入功能<br>
+               • <strong>蓝牙</strong>：测试蓝牙硬件<br>
+               • <strong>位置</strong>：测试GPS功能<br>
+               • <strong>Face ID/Touch ID</strong>：测试生物识别功能<br>
+               • <strong>本地网络</strong>：发现和连接桌面应用</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">5. 连接失败怎么办？</div>
+            <p>1. 检查手机和电脑是否在同一Wi-Fi网络<br>
+               2. 确认防火墙没有阻止端口8765<br>
+               3. 尝试重启应用和桌面软件<br>
+               4. 检查电脑IP地址是否正确<br>
+               5. 确保Bonjour服务正常工作</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">6. 应用支持哪些测试类型？</div>
+            <p>应用支持全面的硬件测试：<br>
+               • 传感器（加速度计、陀螺仪、磁力计等）<br>
+               • 连接功能（Wi-Fi、蓝牙、GPS、NFC等）<br>
+               • 音频系统（扬声器、麦克风、接收器）<br>
+               • 摄像头（前后摄像头、闪光灯）<br>
+               • 显示和触摸（屏幕像素、多点触控）<br>
+               • 生物识别（Face ID、Touch ID）<br>
+               • 电池和存储健康状态</p>
+        </div>
+    </div>
+
+    <div>
+        <h2>文档与资源</h2>
+        <ul>
+            <li><a href="privacy.html">隐私政策</a></li>
+            <li><a href="https://github.com/jemjem/phonecheck-desktop">GitHub仓库</a></li>
+            <li><a href="https://www.jemjem.com">官方网站</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2025 JemJem. 保留所有权利。</p>
+        <p>PhoneCheck是JemJem的商标。</p>
+        <p>最后更新：2025年2月22日</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneCheck iOS Test App Support</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            border-bottom: 2px solid #59C7FA;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #121214;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #1C1C21;
+            margin-top: 30px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+            border-left: 3px solid #59C7FA;
+            padding-left: 15px;
+        }
+        .question {
+            font-weight: 600;
+            color: #1C1C21;
+            margin-bottom: 8px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #949499;
+            font-size: 14px;
+        }
+        a {
+            color: #59C7FA;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .language-selector {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .language-selector a {
+            color: #59C7FA;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+        .language-selector a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <a href="support.html">中文</a>
+        <a href="support-en.html" style="font-weight: bold;">English</a>
+    </div>
+    
+    <header>
+        <h1>PhoneCheck iOS Test App Support</h1>
+        <p>Get help, report issues, or provide feedback</p>
+    </header>
+
+    <div class="contact-info">
+        <h2>Contact Support</h2>
+        <p><strong>Technical Support Email:</strong> <a href="mailto:support@jemjem.com">support@jemjem.com</a></p>
+        <p><strong>Feedback:</strong> <a href="mailto:feedback@jemjem.com">feedback@jemjem.com</a></p>
+        <p><strong>Privacy Related:</strong> <a href="mailto:privacy@jemjem.com">privacy@jemjem.com</a></p>
+        <p>We will respond to your email within 24-48 hours.</p>
+    </div>
+
+    <div>
+        <h2>Frequently Asked Questions (FAQ)</h2>
+        
+        <div class="faq-item">
+            <div class="question">1. What are the requirements to run the PhoneCheck iOS app?</div>
+            <p>• iOS 15.6 or higher<br>
+               • iPhone device (iPad not supported)<br>
+               • Same Wi-Fi network as the PhoneCheck desktop application<br>
+               • Required permissions for various hardware tests (camera, microphone, etc.)</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">2. How do I connect to the PhoneCheck desktop application?</div>
+            <p>1. Ensure phone and computer are on the same Wi-Fi network<br>
+               2. Enter the computer's IP address in the iOS app (displayed by desktop app)<br>
+               3. Click the "Connect" button<br>
+               4. Once connected, the desktop app can send test commands</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">3. Where is test data stored?</div>
+            <p>All diagnostic data is temporarily stored locally on the device and can be deleted after testing. Data can be optionally sent to the connected desktop application for further analysis. We do not store any diagnostic data on our servers.</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">4. What permissions does the app need and why?</div>
+            <p>The app requires the following permissions for hardware testing:<br>
+               • <strong>Camera</strong>: Test front and rear camera functionality<br>
+               • <strong>Microphone</strong>: Test audio input functionality<br>
+               • <strong>Bluetooth</strong>: Test Bluetooth hardware<br>
+               • <strong>Location</strong>: Test GPS functionality<br>
+               • <strong>Face ID/Touch ID</strong>: Test biometric functionality<br>
+               • <strong>Local Network</strong>: Discover and connect to desktop application</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">5. What to do if connection fails?</div>
+            <p>1. Check if phone and computer are on the same Wi-Fi network<br>
+               2. Confirm firewall is not blocking port 8765<br>
+               3. Try restarting the app and desktop software<br>
+               4. Verify the computer IP address is correct<br>
+               5. Ensure Bonjour service is working properly</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">6. What test types does the app support?</div>
+            <p>The app supports comprehensive hardware testing:<br>
+               • Sensors (accelerometer, gyroscope, magnetometer, etc.)<br>
+               • Connectivity (Wi-Fi, Bluetooth, GPS, NFC, etc.)<br>
+               • Audio system (speaker, microphone, receiver)<br>
+               • Cameras (front/rear camera, flashlight)<br>
+               • Display and touch (screen pixels, multi-touch)<br>
+               • Biometrics (Face ID, Touch ID)<br>
+               • Battery and storage health status</p>
+        </div>
+    </div>
+
+    <div>
+        <h2>Documentation & Resources</h2>
+        <ul>
+            <li><a href="privacy-en.html">Privacy Policy</a></li>
+            <li><a href="https://github.com/jemjem/phonecheck-desktop">GitHub Repository</a></li>
+            <li><a href="https://www.jemjem.com">Official Website</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2025 JemJem. All rights reserved.</p>
+        <p>PhoneCheck is a trademark of JemJem.</p>
+        <p>Last Updated: February 22, 2025</p>
+    </footer>
+</body>
+</html>
